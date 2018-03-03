@@ -1,0 +1,109 @@
+.contain {
+	width: 400px;
+	margin: 100px auto;
+	box-shadow: 0 0 7px rgba(0, 0, 0, .2);
+	background-color: white;
+}
+
+.strike {
+	text-decoration: line-through;
+	color: grey;
+}
+
+button {
+	display: inline-block;
+	width: 20%;
+}
+
+h1 {
+	background-color: #333f87;
+	color: white;
+	margin: 0;
+	font-weight: normal;
+	font-size: 30px;
+	padding: 10px 20px 10px 20px;
+}
+
+.fa-plus {
+	float: right;
+}
+
+html {
+	font-family: "Lato";
+	color: #414141;
+	background: #333f87; /* fallback for old browsers */
+	background: -webkit-linear-gradient(#333f87, #fff); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(#333f87, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+input {
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: none;
+	font-size: 20px;
+	border: 2px solid rgba(0, 0, 0, 0);
+}
+
+input:focus {
+	outline: none;
+	border: 2px solid #333f87;
+
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+
+}
+
+li {
+	height: 100%;
+	line-height: 40px;
+
+}
+
+li:nth-child(2n){
+	background: #fcf9e5;
+
+}
+
+.delete {
+	background-color: #b82601;
+	height: 40px;
+	color: white;
+	width: 0px;
+	display: inline-block;
+	text-align: center;
+	margin-right: 20px;
+	opacity: 0;
+	transition: 0.25s linear;
+
+}
+
+li:hover .delete {
+	width: 40px;
+	opacity: 1.0;
+
+}
+
+.all {
+	height: 100%;
+	line-height: 40px;
+	background: #fcf9e5
+}
+
+#tAll {
+	margin-right: 15px;
+	margin-left: 20px;
+}
+
+
+
